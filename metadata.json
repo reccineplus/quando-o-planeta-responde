@@ -1,0 +1,6 @@
+{
+  "name": "Quando o Planeta Responde",
+  "description": "Site oficial do filme de suspense e ficção Quando o Planeta Responde: atmosfera da Caatinga, queimadas e segredos da infecção.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
