@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Film, Users, Image as ImageIcon, Clapperboard, Flame, Info } from 'lucide-react';
+import { X, Film, Users, Image as ImageIcon, Clapperboard, Palette } from 'lucide-react';
 import { NavTab } from '../types';
 import { MOVIE_DATA, CHARACTERS, GALLERY_PHOTOS, ABOUT_TEXT } from '../data/movieData';
 import { CharacterCarousel } from './CharacterCarousel';
@@ -241,21 +241,11 @@ export const DetailSectionsModal: React.FC<Props> = ({
               <div className="space-y-4 text-sm text-stone-300 leading-relaxed font-light">
                 <div className="p-4 rounded-xl bg-black/40 border border-white/10 space-y-2">
                   <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                    <Flame className="w-4 h-4 text-amber-400" />
-                    Efeitos Práticos e Atmosfera Real
+                    <Palette className="w-4 h-4 text-red-400" />
+                    Maquiagem e Efeitos Especiais
                   </h3>
                   <p className="text-xs text-stone-400">
-                    A produção evitou telas verdes excessivas, optando por gravações reais em áreas áridas com iluminação de fogo controlado e lentes anamórficas de alto contraste para capturar a textura da terra rachada e da fumaça crepuscular.
-                  </p>
-                </div>
-
-                <div className="p-4 rounded-xl bg-black/40 border border-white/10 space-y-2">
-                  <h3 className="text-sm font-bold text-white flex items-center gap-2">
-                    <Info className="w-4 h-4 text-[#F4EA93]" />
-                    Desenho de Som Orgânico
-                  </h3>
-                  <p className="text-xs text-stone-400">
-                    Para a infecção fúngica e os animais, os designers de som misturaram gravações de cigarras do sertão aceleradas, estalos de galhos secos de marmeleiro e instrumentos de corda rústicos do Nordeste afinados em frequências dissonantes.
+                    Todo sangue, ferimento e marca de infecção vistos nos registros de produção são fictícios, criados por um artista de maquiagem e efeitos especiais (SFX) especialmente para o filme. Nenhum ator sofreu qualquer lesão real durante as filmagens.
                   </p>
                 </div>
               </div>

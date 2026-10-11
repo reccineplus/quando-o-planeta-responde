@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Volume2, VolumeX, User, Sparkles, X, Download } from 'lucide-react';
+import { Search, Volume2, VolumeX, User, Sparkles, X } from 'lucide-react';
 import { NavTab } from '../types';
 import { RecStudioLogo } from './RecStudioLogo';
 import { soundscape } from '../utils/audioAmbient';
@@ -143,18 +143,6 @@ export const Header: React.FC<HeaderProps> = ({
               </>
             )}
           </button>
-
-          {/* Download Standalone HTML Button */}
-          <a
-            id="download-html-btn"
-            href="/quando_o_planeta_responde.html"
-            download="quando_o_planeta_responde.html"
-            className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold tracking-wider transition-all border border-[#F4EA93]/40 bg-[#F4EA93]/10 text-[#F4EA93] hover:bg-[#F4EA93] hover:text-stone-950 cursor-pointer shadow-sm"
-            title="Baixar arquivo HTML standalone completo para usar no Antigravity ou navegador"
-          >
-            <Download className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline text-[11px] font-bold">BAIXAR HTML</span>
-          </a>
 
           {/* User Profile / Icon */}
           <button
